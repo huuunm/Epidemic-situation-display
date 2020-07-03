@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css">
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=cddc8264cfa8793b396c890db09d96a0&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar"></script>
+    <script src="../static/bundle.js"></script>
+
+    <style type="text/css">
+        @media (max-width: 1200px) {
+            #main_div {
+                margin: 0 auto;
+                width:375px;
+            }
+            #container {
+                text-align:center;
+                width:375px; 
+                height: 300px; 
+                margin: 0;
+            }
+            .legend {
+                width:375px; 
+            }
+
+        }
+        @media (min-width: 1201px) {
+            #main_div {
+                margin: 0 auto;
+                width:700px;
+            }
+            #container {
+                text-align:center;
+                width:700px; 
+                height: 560px; 
+                margin: 0;
+            }
+            .legend {
+                width:700px; 
+            }
+        }
+    </style>
+    <title>新冠肺炎地级市疫情图</title>
+</head>
+<body>
+    <p style="text-align:center; width: 100%">
+        <h1 style="text-align:center; width: 100%">
+            新冠肺炎地级市疫情图
+        </h1>
+    </p>
+    <div style="text-align:center;width: 100%">
+        <img src="../static/legend.jpg" alt="" class="legend">
+    </div>
+    <div style="text-align:center;width: 100%">
+        <div id="main_div">
+            <div id="container">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
